@@ -23,4 +23,4 @@ Usage :
 Contact :
 My Name - VIGNESH
 Email   - vigneshvignesh0822@gmail.com
-Project Link: https://github.com/vignesh220902/project-nexus/
+Project Link: https://github.com/vignesh220902/project-nexus.git
