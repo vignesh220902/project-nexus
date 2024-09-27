@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project_Nexus</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="container1" id="head">
+        <div class="formouter" id="signingpage" >
+            <form action="/" id="form" method="/">
+                    <h2 style="margin-top:30px ;">SIGN UP PAGE</h2>
+                    <div class="inputitems">
+                        <label for="fname">Name</label><input type="text" name="fname" id="fname" placeholder="Enter Your Name" >
+                            <div class="erroring"></div>
+                    </div>
+                    <div class="inputitems">
+                        <label for="usermail">Email</label><input type="email" name="usermail"  id="usermail" class="signemail"  placeholder="Enter Your Email">
+                            <div class="erroring"></div>
+                    </div>
+                    <div class="inputitems">
+                        <label for="pass">Password</label><input type="password"  name="pass" id="pass" placeholder="Enter Password">
+                            <div class="erroring"></div>
+                    </div>
+                    <div class="inputitems">
+                        <label for="pass2">Confrim Password</label><input type="password" id="pass2" name="pass2" placeholder="Enter Password Again"  >
+                            <div class="erroring"></div>
+                    </div>
+                    <button type="submit" class="btn">SIGN UP</button>
+                    <div class="signpart">
+                        <p> Already have an account ? <a href="#" class="gotologin" onclick="myfun1()">LOG IN</a></p>
+                    </div>
+            </form>
+        </div>
+        <!-- ========================================================================================================= -->
+        <div class="formouter" id="logpage" >
+            <form action="/" id="fom" method="get">
+                    <h2>LOG IN PAGE</h2>
+                    <div class="inputitems">
+                        <label for="usermail">Email</label><input type="email" name="usermail" class="signemail"  placeholder="Enter Your Email" required>
+                            <div class="erroring"></div>
+                    </div>
+                    <div class="inputitems">
+                        <label for="pass1">Password</label><input type="password" id="pass1" placeholder="Enter Your Password" name="pass1" required>
+                            <div class="erroring"></div>
+                    </div>
+                    <div class="forgotpass">
+                        <a href="#" class="fpass" onclick="fpclick()">Forgot password ?</a>
+                    </div>
+                    <button type="submit" class="btn">LOG IN</button>
+                    <div class="signpart">
+                        <p> I don't have an account ? <a href="#" class="signup" onclick="myfun()">SIGN UP</a></p>
+                    </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
